@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://bkfeng.top/47788</loc>
+    
+    <lastmod>2024-09-23</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://bkfeng.top/63227</loc>
+    
+    <lastmod>2024-09-23</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://bkfeng.top/book1</loc>
     
     <lastmod>2024-09-23</lastmod>
@@ -375,6 +389,13 @@
   </url>
   
   <url>
+    <loc>https://bkfeng.top/tags/C/</loc>
+    <lastmod>2024-09-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://bkfeng.top/tags/%E8%B5%84%E6%96%99/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>daily</changefreq>
@@ -434,6 +455,20 @@
   
   <url>
     <loc>https://bkfeng.top/categories/%E7%9F%A5%E7%BD%91/</loc>
+    <lastmod>2024-09-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bkfeng.top/categories/C-C/</loc>
+    <lastmod>2024-09-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bkfeng.top/categories/C-C/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
