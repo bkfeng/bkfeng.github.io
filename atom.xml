@@ -6,7 +6,7 @@
   <link href="https://bkfeng.top/atom.xml" rel="self"/>
   
   <link href="https://bkfeng.top/"/>
-  <updated>2023-08-21T13:56:50.000Z</updated>
+  <updated>2023-08-02T13:56:50.000Z</updated>
   <id>https://bkfeng.top/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>公众号书籍转PDF，顺带一键OCR转文字</title>
-    <link href="https://bkfeng.top/ocr"/>
-    <id>https://bkfeng.top/ocr</id>
-    <published>2023-08-21T13:56:50.000Z</published>
-    <updated>2023-08-21T13:56:50.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>个人喜欢在读书时勾勾画画，遇到一些重要的知识或者内容希望能在图像PDF上便捷地做复制、搜索、高亮、划线等等操作。</p><p>但是我们公众号获取的书籍通常是图像扫描文件，最终的到的仅为单层PDF。</p><p>这种图像类格式的PDF不可进行搜索、复制文字等操作，这就很难受了。</p><p><img src="http://bkfengimage.test.upcdn.net/image/202308211754926.png" alt="PDF文件"></p><p>通常我们会进行<strong>OCR操作</strong>，将PDF变成可检索的图像格式的双层PDF</p><p>双层PDF的“双层”，指的是“图像层+隐藏文字层”，即在扫描图像上，再蒙一层不可见的隐藏文字，这样在阅读的时候，看到的是与原书完全一样的扫描图像，但是同时又可以对隐藏文字进行搜索、复制。</p><p>PDF文件的OCR，首选肯定是<strong>Abbyy</strong>，然后就是<strong>Acrobat</strong>啦。</p><p>大家可以通过B站以及谷歌获取相关教程，本文不过多介绍</p><p><img src="http://bkfengimage.test.upcdn.net/image/202308211754674.png" alt=""></p><p>下面介绍的方法，是在我们使用提供的<code>PDG2PIC</code>软件将PDG转换PDF的时候，顺便将合成的PDF文件变为可检索格式的双层PDF，从而省去转换出来PDF文件后又将PDF进行OCR的麻烦。</p><p>（本教程默认你已经安装了<code>PDG2PIC</code>软件，并且知道如何把一个压缩包解压为PDG目录，并且导入到<code>PDG2PIC</code>软件进行PDF合成）</p><h1>教程开始</h1><p>转换书籍时，想必大家都是通过<code>PDG2PIC</code>这个软件的吧</p><p>PDG2PIC是strnghrs开发的一款软件，大家转换PDF的时候也经常使用吧~</p><p>其中自带的OCR功能，但是如果你直接点击OCR但是无法转换的，还需要我们下载相关驱动</p><p>为什么不加这个功能的？作者是这么说的：</p><p>生成双层PDF：如果此选项被选中，则转换过程中启动OCR，生成隐藏文字，否则只转换图像，不管文字。由于需要时间，MODI的安装也不是电脑白痴随随便便就能搞定的，因此此选项缺省未选中，以免麻烦。</p><p>好了，下面是配置方法</p><h2 id="1-下载PDG2PIC以及MODI-Engine"><a class="header-anchor" href="#1-下载PDG2PIC以及MODI-Engine"></a>1.下载PDG2PIC以及MODI_Engine</h2><p>如果你已经有<code>PDG2PIC</code>软件,复制直接MODI_Engine.exe到相同文件夹，</p><p>或者也可以直接下载全部文件到一个目录</p><p><img src="http://bkfengimage.test.upcdn.net/image/202308211754543.png" alt="软件目录"></p><h2 id="2-安装MODI"><a class="header-anchor" href="#2-安装MODI"></a>2.安装MODI</h2><p>双层PDF的文字靠OCR生成，教程所用的OCR引擎是微软Office 2007自带的MODI（Microsoft Office Document Imaging）。</p><p>只需要打开<code>Setup_MODI_From_Office2007SP3.exe</code>进行一键安装</p><p><img src="http://bkfengimage.test.upcdn.net/image/202308211754534.png" alt="Setup_MODI_From_Office2007SP3.exe文件"></p><p>安装完成以后就可以直接进行OCR转换了.</p><h2 id="OCR演示"><a class="header-anchor" href="#OCR演示"></a>OCR演示</h2><p><img src="http://bkfengimage.test.upcdn.net/image/202308211754553.png" alt="OCR演示"></p><p>勾选“生成双层PDF”后开始转换</p><p>OCR和转换的过程还是很快的，平均0.5s一张</p><p>180页的PDF弄下来图像转换+OCR一个用了2分钟左右</p><p>转换好的文件我们可以直接复制以及文字标注啦！</p><p>遇到重要的知识点也不用担心复制不了</p><p><img src="http://bkfengimage.test.upcdn.net/image/202308211754642.png" alt="转换完PDF文件"></p><p>这是复制出来的文字与原文的对比，一眼看过去准确率还是挺高的~</p><p><img src="http://bkfengimage.test.upcdn.net/image/202308211754005.png" alt="对比结果"></p><h2 id="TIP"><a class="header-anchor" href="#TIP"></a>TIP</h2><p>1.OCR结果不能保证100%准确性，其结果与图像分辨率、图像质量密切相关。</p><p>2.一些排版复杂，图像居多的文件，建议就别OCR了，以免结果太过搞笑。</p><p>3.关于软件OCR相关操作的几个选项：</p><ul><li>生成双层PDF：如果此选项被选中，则转换过程中启动OCR，生成隐藏文字，否则只转换图像，不管文字。<br>在选中“生成双层PDF”后，下列选项才能生效：</li><li>OCR语言：一次只能选择一种语言，注意所选项必须与所识别的文字相匹配，例如想识别繁体字，就一定要选择“繁体中文”，否则识别出来的结果多半会很搞笑。</li><li>合并文本行：如果选中，则转换出来的PDF文件中的隐藏文本以行为单位，文件长度较小，但是字的位置不一定准确。如果未选，则以字（CJK）或词（非CJK）为单位，字的位置比较准确，文件长度略大。</li><li>CJK版式：中、日、韩文字都有横排和竖排之分，本软件在一定程度上可以自动识别，如果对识别结果不满意，可以手工选择是横排还是竖排。此选项对OCR准确性没有影响，仅对隐藏文字采用的字体有影响。</li><li>去掉大于页面尺寸1/*的图表：MODI引擎在OCR中日韩语言时相当脆弱，在OCR前先对图像清理一遍是一个更安全的做法。判断是否是需要清除的图表。如果指定的比例是1，则所有页面都不会执行自动去除图表操作。</li></ul><p>4.OCR纯中文或者纯英文都没有问题，有时候OCR中英文混排的时候，效果确实不如Abbyy，这个无解。但是软件的OCR转换可以满足大部分需求了。</p><p>5.为了软件失效，可以随时更新，以上软件链接公众号后台回复：<code>getocr </code> 获取</p>]]></content>
-    
-    
-    <summary type="html">在我们使用提供的PDG2PIC软件将PDG转换PDF的时候，顺便将合成的PDF文件变为可检索格式的双层PDF</summary>
-    
-    
-    
-    <category term="书籍" scheme="https://bkfeng.top/categories/%E4%B9%A6%E7%B1%8D/"/>
-    
-    
-    <category term="书籍" scheme="https://bkfeng.top/tags/%E4%B9%A6%E7%B1%8D/"/>
-    
-    <category term="OCR" scheme="https://bkfeng.top/tags/OCR/"/>
-    
-    <category term="资源" scheme="https://bkfeng.top/tags/%E8%B5%84%E6%BA%90/"/>
-    
-  </entry>
   
   <entry>
     <title>我爬取了5000个优质网盘资源（含源码）</title>
@@ -200,10 +175,10 @@
   
   <entry>
     <title>公众号书籍食用指南</title>
-    <link href="https://bkfeng.top/book"/>
-    <id>https://bkfeng.top/book</id>
+    <link href="https://bkfeng.top/book1"/>
+    <id>https://bkfeng.top/book1</id>
     <published>2021-12-02T05:41:51.000Z</published>
-    <updated>2023-10-25T15:34:43.858Z</updated>
+    <updated>2024-09-23T15:10:36.908Z</updated>
     
     <content type="html"><![CDATA[<h1>书籍概况</h1><p>书籍来自某秀与zlibrary。书库基本涵盖20年以前出版的所有书。如果你找的新书基本没什么可能了。</p><p>公众号书籍搜索指令如下</p><p><img src="http://bkfengimage.test.upcdn.net/image/202308211820264.png" alt=""></p><img src="http://bkfengimage.test.upcdn.net/image/202308211821142.png" alt="image-20221127221604449" style="zoom:50%;" /><p>2月6日更新：公众号已经支持ss号获取书籍，支持ISBN/书名/作者等信息查询。</p><h1>一.书籍获取</h1><h2 id="通过书籍id获取下载链接"><a class="header-anchor" href="#通过书籍id获取下载链接"></a>通过书籍id获取下载链接</h2><p>通过书籍id可以获取书籍的信息（书名、作者、出版社、ISBN、书源）和下载链接</p><ul><li><p>ssid为8为数字，可以获取读秀的资源（书籍下载后还需要进行解压和转换等一系列操作）</p></li><li><p>zlibid以00开头，可以获取zlibrary的资源（书籍下载后直接可以打开，无需转换）</p></li></ul><p>书籍的ssid通过网站搜索、公众号搜索获取<br>书籍的zlibid暂时只能通过公众号搜索获取</p><p><img src="http://bkfengimage.test.upcdn.net/image/202308211822029.png" alt="image-20230821182203954"></p><div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>ss号获取方法(っ•̀ω•́)っ</span></div>    <div class="hide-content"><ol><li>第一种可以通过网站查询书籍的ss号。</li></ol><p>（以下网站只是用作查询，<strong>请不要直接在网站内付费</strong>！！）</p><p><a href="https://www.xueshu86.com/">https://www.xueshu86.com/</a></p><p><a href="https://ps.uuttdx.com/">https://ps.uuttdx.com/</a></p><ol start="2"><li>第二种可以用油猴插件，脚本适配网站二者任选一个内容都是一样的：<a href="https://greasyfork.org/zh-CN/scripts/420751-%E5%9B%BE%E4%B9%A6%E4%BA%92%E5%8A%A9">油猴插件链接</a></li></ol><p>然后打开网站，就会显示书籍的ss号。</p><p>1.<strong><a href="http://www.dglib.superlib.net/">http://www.dglib.superlib.net/ </a> （东莞图书馆检索系统，免登录，推荐）</strong></p><p>2.<a href="http://www.ucdrs.superlib.net/">http://www.ucdrs.superlib.net/</a> （全国图书馆联盟，需登录）</p><p><img src="http://bkfengimage.test.upcdn.net/image/202308211822783.png" alt="网站显示ss号"></p></div></div><h2 id="通过cx你需要搜索的书名来搜索书籍"><a class="header-anchor" href="#通过cx你需要搜索的书名来搜索书籍"></a>通过<code>cx你需要搜索的书名</code>来搜索书籍</h2><p>如想要查询“三体”，就发送“cx三体&quot;；搜索结果过多可加入信息“cx三体 刘慈欣”。不过建议查询时宁可少字一不要多字。</p><p>再次回复书籍的id可以获得书籍的百度云链接<img src="http://bkfengimage.test.upcdn.net/image/202308211823505.png" alt="cx指令" style="zoom:80%;" /></p><p>下载后即可获取一份带有书签的文字可复制的文件</p><p><img src="http://bkfengimage.test.upcdn.net/image/202308211824956.png" alt="PximnHvKROV341y"></p><p>此种方式的好处可以查询包括zlibrary和读秀的书籍</p><p>建议优先使用zlibrary的资源里的书籍（即书籍id为00开头）。</p><p>因为该库的书籍文件为pdf、mobi、epub等无需解压的文件；而读秀库的文件需要解压以及文件为扫描版，且文字不可复制和没有书签</p><h2 id="通过next进行查询结果的翻页操作"><a class="header-anchor" href="#通过next进行查询结果的翻页操作"></a>通过<code>next</code>进行查询结果的翻页操作</h2><p>输入<code>next</code>可根据上一次搜索结果进行翻页</p><p><img src="http://bkfengimage.test.upcdn.net/image/202308211824348.png" alt="upAtlMDiILZX9S4"></p><h2 id="通过user获取用户信息"><a class="header-anchor" href="#通过user获取用户信息"></a>通过<code>user</code>获取用户信息</h2><p>目前公众号为节约资源，限制了每日获取次数。不过一般正常使用的话不会超过这个限制的。（因为以前老有一些人一天就发个上百本的书籍过来）</p><p>注意查询不消耗次数，只有发送书籍id获取百度云链接才消耗次数。</p><img src="http://bkfengimage.test.upcdn.net/image/202308211824634.png" alt="user指令" style="zoom: 67%;" /><h1>二.转换格式</h1><p>通过公众号的百度云链接下载书籍。</p><p>zlibrary获取的书籍直接是pdf、mobi、epub等可直接阅读格式，你就直接大功告成了！！</p><p>但读秀书库中的书籍文件大部分是压缩包格式的，并且需要解压密码</p><p><strong>需要使用我们提供的合成工具进行解压和合成PDF文件</strong>（仅有win工具）</p><h4 id="软件下载"><a class="header-anchor" href="#软件下载"></a>软件下载</h4><p>转换软件：<a href="https://wwb.lanzoub.com/iBOBX0fxgxfi">https://wwb.lanzoub.com/iBOBX0fxgxfi</a></p><img src="http://bkfengimage.test.upcdn.net/image/202308211825037.png" alt="image-20230211144449406" style="zoom:50%;" /><h4 id="简要步骤说明："><a class="header-anchor" href="#简要步骤说明："></a>简要步骤说明：</h4><p>根据教程进行操作，一般来说两部就够了。工具可能会提示病毒，关闭杀毒软件即可。</p><ol><li><p>下载文件后进行解压。（如果提示有密码，请使用【1.压缩包有密码使用—没有密码跳过此步骤】文件夹内解密解压工具进行解压。），提供3款解密工具，优先用【解密工具1】</p></li><li><p>查看解压后文件夹内文件是什么格式，根据文件格式选择合适的工具进行合成PDF</p><ul><li>文件内 .pdg 格式的，请使用【2.PDG合成PDF工具】 进行合成</li><li>文件为 .jpg，.png 等图片 格式的请使用 【3.图片合成PDF工具】 进行合成</li><li>文件内 .djvu 格式的请使用 【4.DJVU合成PDF工具】 进行合成</li></ul></li><li><p>如需要给书籍添加书签，请使用【5.高级工具-书签获取&amp;编辑】获取&amp;编辑</p></li></ol><img src="http://bkfengimage.test.upcdn.net/image/202308211825142.png" alt="解压" style="zoom: 50%;" /><img src="https://i0.hdslb.com/bfs/album/9be04e9f422694c3233f9ec8489605cbc0efae21.png" alt="转换" style="zoom: 50%;" /><p>​</p><div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>    <div class="hide-content"><h1><strong>关于捐助：</strong></h1><p>谢谢你愿意点开(✪ω✪)</p><p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p><p><img src="http://lc-ym5PR5Uz.cn-n1.lcfile.com/dk7uXQCuFNQVe3S7Yl6eJFXGvimLMJk1/1698247977.png" alt="">](<a href="https://imgse.com/i/piVK5IP">https://imgse.com/i/piVK5IP</a>)</p></div></div>]]></content>
     

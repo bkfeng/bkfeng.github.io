@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://bkfeng.top/study</loc>
+    <loc>https://bkfeng.top/book1</loc>
     
-    <lastmod>2024-02-22</lastmod>
+    <lastmod>2024-09-23</lastmod>
     
   </url>
   
   <url>
-    <loc>https://bkfeng.top/book</loc>
+    <loc>https://bkfeng.top/study</loc>
     
-    <lastmod>2023-10-25</lastmod>
+    <lastmod>2024-02-22</lastmod>
     
   </url>
   
@@ -26,13 +26,6 @@
     <loc>https://bkfeng.top/kao</loc>
     
     <lastmod>2023-10-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://bkfeng.top/ocr</loc>
-    
-    <lastmod>2023-08-21</lastmod>
     
   </url>
   
@@ -156,13 +149,6 @@
   </url>
   
   <url>
-    <loc>https://bkfeng.top/page/message/</loc>
-    
-    <lastmod>2021-07-23</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://bkfeng.top/page/categories/</loc>
     
     <lastmod>2021-07-23</lastmod>
@@ -171,6 +157,13 @@
   
   <url>
     <loc>https://bkfeng.top/page/tags/</loc>
+    
+    <lastmod>2021-07-23</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://bkfeng.top/page/message/</loc>
     
     <lastmod>2021-07-23</lastmod>
     
@@ -200,6 +193,13 @@
 
   
   <url>
+    <loc>https://bkfeng.top/tags/%E4%B9%A6%E7%B1%8D/</loc>
+    <lastmod>2024-09-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://bkfeng.top/tags/%E8%80%83%E7%A0%94/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>daily</changefreq>
@@ -207,7 +207,7 @@
   </url>
   
   <url>
-    <loc>https://bkfeng.top/tags/%E4%B9%A6%E7%B1%8D/</loc>
+    <loc>https://bkfeng.top/tags/%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -277,20 +277,6 @@
   </url>
   
   <url>
-    <loc>https://bkfeng.top/tags/OCR/</loc>
-    <lastmod>2024-09-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://bkfeng.top/tags/%E8%B5%84%E6%BA%90/</loc>
-    <lastmod>2024-09-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://bkfeng.top/tags/%E5%B0%8F%E7%BA%A2%E4%B9%A6/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>daily</changefreq>
@@ -333,14 +319,21 @@
   </url>
   
   <url>
-    <loc>https://bkfeng.top/tags/%E7%9F%A5%E7%BD%91/</loc>
+    <loc>https://bkfeng.top/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bkfeng.top/tags/%E8%AE%BA%E6%96%87/</loc>
+    <loc>https://bkfeng.top/tags/%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2024-09-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bkfeng.top/tags/%E5%B0%8F%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -368,28 +361,14 @@
   </url>
   
   <url>
-    <loc>https://bkfeng.top/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://bkfeng.top/tags/%E7%9F%A5%E7%BD%91/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bkfeng.top/tags/%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2024-09-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://bkfeng.top/tags/%E5%B0%8F%E6%8A%80%E5%B7%A7/</loc>
-    <lastmod>2024-09-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://bkfeng.top/tags/%E7%BE%A4%E8%B5%84%E6%BA%90/</loc>
+    <loc>https://bkfeng.top/tags/%E8%AE%BA%E6%96%87/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -402,17 +381,24 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://bkfeng.top/tags/%E7%BE%A4%E8%B5%84%E6%BA%90/</loc>
+    <lastmod>2024-09-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
-    <loc>https://bkfeng.top/categories/%E8%80%83%E7%A0%94/</loc>
+    <loc>https://bkfeng.top/categories/%E7%94%B5%E5%AD%90%E4%B9%A6/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bkfeng.top/categories/%E7%94%B5%E5%AD%90%E4%B9%A6/</loc>
+    <loc>https://bkfeng.top/categories/%E8%80%83%E7%A0%94/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -426,13 +412,6 @@
   </url>
   
   <url>
-    <loc>https://bkfeng.top/categories/%E4%B9%A6%E7%B1%8D/</loc>
-    <lastmod>2024-09-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://bkfeng.top/categories/%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>daily</changefreq>
@@ -440,7 +419,7 @@
   </url>
   
   <url>
-    <loc>https://bkfeng.top/categories/%E7%9F%A5%E7%BD%91/</loc>
+    <loc>https://bkfeng.top/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -454,7 +433,7 @@
   </url>
   
   <url>
-    <loc>https://bkfeng.top/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://bkfeng.top/categories/%E7%9F%A5%E7%BD%91/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
